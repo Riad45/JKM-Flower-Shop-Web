@@ -1,0 +1,144 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body {
+
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+
+
+    /* banner page style */
+
+}
+
+.banner {
+
+    background: rgba(229, 84, 115, 0.10);
+    display: flex;
+    padding: 0px 150px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+
+}
+
+.banner-content {
+
+    width: 700px;
+
+
+}
+
+.banner-title {
+
+    color: #272727;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 800;
+    margin-bottom: 30px;
+
+
+}
+
+.banner-description {
+
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: justify;
+    margin-bottom: 30px;
+
+
+}
+
+.btn-primary {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #E55473;
+    padding: 20px 40px;
+    border-radius: 8px;
+    border: 0px;
+}
+
+.banner-image {
+    padding-top: 50px;
+
+    width: 550px;
+    height: 750px;
+}
+
+.featured-flower {
+    margin-top: 180px;
+
+    text-align: center;
+}
+
+.section-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.section-description {
+
+    width: 590px;
+    display: inline-block;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-bottom: 48px;
+
+}
+
+.tree-container {
+    display: inline-flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.tree{
+    width: 350px;
+height: 450px;
+flex-shrink: 0;
+border-radius: 300px 300px 0px 0px;
+}
+
+#tree1{
+    padding: 110px 78px 0px 78px;
+}
+
+#tree2{
+    padding: 115px 47px 50px 47px;
+}
+
+#tree3{
+    padding: 65px 75px 0px 75px;
+}
+.tree-caption {
+    margin-top: 32px;
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    /* 145.833% */
+    text-decoration-line: underline;
+
+}
