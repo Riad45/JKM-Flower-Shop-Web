@@ -82,8 +82,11 @@ body {
     height: 750px;
 }
 
+/* featured flowe section */
+
 .featured-flower {
-    margin-top: 180px;
+
+    margin: 180px 200px 0px;
 
     text-align: center;
 }
@@ -113,24 +116,25 @@ body {
     align-items: center;
 }
 
-.tree{
+.tree {
     width: 350px;
-height: 450px;
-flex-shrink: 0;
-border-radius: 300px 300px 0px 0px;
+    height: 450px;
+    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
 }
 
-#tree1{
+#tree1 {
     padding: 110px 78px 0px 78px;
 }
 
-#tree2{
+#tree2 {
     padding: 115px 47px 50px 47px;
 }
 
-#tree3{
+#tree3 {
     padding: 65px 75px 0px 75px;
 }
+
 .tree-caption {
     margin-top: 32px;
     color: #272727;
@@ -140,5 +144,17 @@ border-radius: 300px 300px 0px 0px;
     line-height: 35px;
     /* 145.833% */
     text-decoration-line: underline;
+
+}
+
+
+
+.service {
+    margin-top: 180px;
+    display: flex;
+    gap: 100px;
+    padding: 85px 175px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
 
 }
