@@ -37,7 +37,7 @@ body {
 
 .banner-content {
 
-    width: 700px;
+    max-width: 700px;
 
 
 }
@@ -86,7 +86,7 @@ body {
 
 .featured-flower {
 
-    margin: 180px 200px 0px;
+    margin: 180px 150px 0px;
 
     text-align: center;
 }
@@ -117,8 +117,8 @@ body {
 }
 
 .tree {
-    width: 350px;
-    height: 450px;
+    width: 382px;
+    height: 470px;
     flex-shrink: 0;
     border-radius: 300px 300px 0px 0px;
 }
@@ -151,10 +151,45 @@ body {
 
 .service {
     margin-top: 180px;
-    display: flex;
+    display:inline-flex;
     gap: 100px;
     padding: 85px 175px;
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
 
+}
+
+/* hot deals section */
+
+.hot-deal{
+    margin-top:  180px ;
+
+    text-align: center;
+}
+
+.banner-title2{
+    color: #272727;
+font-size: 40px;
+font-weight: 800;
+line-height: normal;
+margin-bottom: 30px;
+}
+
+span{
+    color: #E55473;
+}
+
+.banner2-image{
+    padding: 100px;
+}
+
+/* instagram section */
+
+.pic-container{
+    display:flex ;
+}
+
+.insta-img{
+    max-height: 395px ;
+    max-width: 340px;
 }
